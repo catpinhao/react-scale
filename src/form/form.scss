@@ -1,0 +1,27 @@
+form {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 2%;
+
+  input[type="text"] {
+    background-color: white;
+    padding: 2%;
+    width: 50%;
+    color: black;
+    border: none;
+    display: inline-block;
+    -webkit-box-shadow: 10px 10px 300px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 300px -20px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 300px -20px rgba(0,0,0,0.75);
+  }
+
+  input[type="submit"] {
+    background-color: #FA5549;
+    text-transform: uppercase;
+    color: white;
+    padding: 1% 7.5% 1% 5%;
+    margin-left: -12.5%;
+    border: none;
+    display: inline-block;
+  }
+}
